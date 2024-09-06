@@ -1,0 +1,22 @@
+{
+	"name": "ds_blob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_ABlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "blob-sampleproject03"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
