@@ -1,0 +1,2 @@
+This project is to Copy data from RestAPI to Azure blob storage using event based triggers. Then data transfermation uding Databricks.
+Finally load the processed data to Azure synapse using poly base triggers.
