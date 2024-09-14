@@ -1,0 +1,17 @@
+{
+	"name": "RestAPISchedulestrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-09-06T07:27:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
